@@ -1,0 +1,171 @@
+#block-body{
+    width: 12800px;
+    height:  auto;
+    margin: 0 auto;
+}
+
+#block-header{
+    width: 1280px;
+}
+
+#header-top-block{
+    width: 1280px;
+    height: 28px;
+}
+
+#header-top-menu{
+    margin-right: -10px;
+}
+
+#header-top-menu li{
+    list-style-type: none;
+    font: 20px Bradley Hand, cursive;
+    float:  left;
+    margin-top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #E3E3E3;
+}
+
+#header-top-menu a{
+    list-style-type: none;
+    color: #00678c;
+    text-decoration: Bradley Hand, cursive;
+}
+
+#header-top-menu a:hover{
+    color: #EF662b;
+    border-bottom: 1px dashed #EF662b;
+}
+
+#block-content{
+    width: auto;
+    height: auto;
+}
+
+#block-good-grid
+{
+    margin-left: -35px;
+}
+
+.block-good-grid-li{
+    width: 380px;
+    float: left;
+    height: 230px;
+    margin-left:  10px;
+    margin-top: 15px;
+}
+
+.style-title-grid{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.style-title-grid a{
+    font: bold 15px Bradley Hand, cursive;
+    color: #0a83ab;
+    text-decoration: underline;
+}
+
+.style-title-grid a:hover{
+    color: #e26666;
+}
+
+.block-images-grid{
+    width: auto;
+    height: 230px;
+    float: left;
+    margin-right: 15px;
+}
+
+.style-price-grid{
+    font: 16px Bradley Hand, cursive;
+    margin-top: 7px;
+}
+
+.style-price-grid strong{
+    font: 23px Bradley Hand, cursive;
+    color: #6b6d73;
+}
+
+.add-cart-style-grid{
+    visibility: hidden;
+}
+
+.mini-features{
+    font: 14px/18px Bradley Hand, cursive;
+    margin-top: 10px;
+}
+
+.mini-features p{
+    margin: 0;
+    padding: 0;
+}
+
+.h2_title{
+    font: 25px Bradley Hand, cursive;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 3px;
+}
+
+#block_form_add{
+    height: auto;
+}
+
+#form_add{
+    margin-top: 30px;
+    margin-left: 280px;
+}
+
+#form_add li{
+    margin-top: 10px;
+}
+
+.input_add{
+    height: 35px;
+    width:  320px;
+    font: 17px Bradley Hand, cursive;
+    margin-left: 210px;
+    padding-left: 25px;
+    color: black;
+    border-left: 1px solid #ababab;
+    border-top: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+}
+
+.label_add{
+    position: absolute;
+    font: 20px Bradley Hand, cursive;
+
+}
+
+.star{
+    font: 16px Luminari, fantasy;
+    color: #e35903;
+    position: absolute;
+    margin-left: 220px;
+}
+
+#form_submit{
+    background: url(/images/grd_reg_button.png);
+    border: 1px solid #E4E4E4;
+    font: bold 13px Bradley Hand, cursive;
+    border-radius:5px ;
+   -webkit-border-radius:5px ;
+   -moz-border-radius:5px ;
+    padding-left: 7px;
+    padding-right: 7px;
+    height: 33px;
+    cursor: pointer;
+    margin-left: -232px;
+}
+
+#form_submit:active{
+    background: url(/images/grd_reg_button_vert.png);
+}
+
+.error{
+    font: italic 14px Luminari, fantasy;
+    color: #cc0063;
+}
